@@ -1,0 +1,25 @@
+form{
+    background-color: #41e89a;
+    margin: auto;
+    padding: 20px;
+    width: 50%;    
+    border-radius: 5px;
+}
+legend{
+    font-weight: bold;
+    color: white;
+}
+
+input[type=text], input[type=password], input[type=email]{
+    width: 60%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus{
+    background-color: #ddd;
+    outline: none;
+    border-radius: 5px;
+}
